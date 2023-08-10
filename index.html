@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./Styles/all.min.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="../test/css/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+    <nav class="px-5 py-3 navbar">
+        <div class="nav-left">
+            <div class="icon">
+                <i class="fa-solid fa-cloud-sun-rain text-white p-2"></i>
+            </div>
+            <div class="weather-title"> Weather </div>
+        </div>
+        <ul class="nav-right">
+            <li class="px-2"><a href="#">Home</a></li>
+            <li class="px-2"><a href="#">News</a></li>
+            <li class="px-2"><a href="#">Live cameras</a></li>
+            <li class="px-2"><a href="#">Photos</a></li>
+            <li class="px-2"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-bar">
+        <input type="text" id="locationInput" placeholder="Enter location" class="w-75 rounded py-2">
+        <button onclick="getWeather()" class="p-2 btn btn-dark">Find Location</button>
+    </div>
+    <div class="weather-cards">
+    </div>
+    <script src="JS/index.js"></script>
+</body>
+
+</html>

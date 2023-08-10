@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+ul,
+p,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../overlay-bg.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+
+.weather-title {
+    font-size: 24px;
+}
+
+.nav-right {
+    list-style: none;
+    display: flex;
+}
+
+.nav-right li {
+    margin-left: 15px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.nav-right a:hover {
+    color: blue;
+}
+
+
+/* Search bar styles */
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#locationInput {
+    padding: 5px;
+    width: 200px;
+}
+
+/* Weather card styles */
+.weather-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.card {
+    background-color: grey !important;
+    color: white !important;
+    border: 1px solid #ddd;
+    padding: 50px;
+    text-align: center;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
